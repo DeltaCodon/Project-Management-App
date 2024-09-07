@@ -1,0 +1,11 @@
+{
+  "homepage": "https://deltacodon.github.io/Project-Management-App/",
+  "name": "project-managemnt-app",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
